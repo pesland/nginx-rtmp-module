@@ -576,7 +576,7 @@ ngx_rtmp_hls_write_playlist(ngx_rtmp_session_t *s)
 
         p = ngx_slprintf(p, end,
                          "#EXTINF:%.3f,\n"
-                         "https://sites-opensocial.googleusercontent.com/gadgets/proxy?container=focus&refresh=3153600&url=https://vole-stream.volestreamx.workers.dev/hls/%V%V%s%uL.js\n",
+                         "https://sites-opensocial.googleusercontent.com/gadgets/proxy?container=focus&refresh=3600&url=https://vole-stream.volestream-cdn1.workers.dev/hls/%V%V%s%uL.js\n",
                          f->duration, &hacf->base_url, &name_part, sep, f->id);
 
         ngx_log_debug5(NGX_LOG_DEBUG_RTMP, s->connection->log, 0,
