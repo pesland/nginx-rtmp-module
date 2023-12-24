@@ -576,7 +576,7 @@ ngx_rtmp_hls_write_playlist(ngx_rtmp_session_t *s)
 
         p = ngx_slprintf(p, end,
                          "#EXTINF:%.3f,\n"
-                         "https://cdn.bedavamac.site/https://worker-frosty-truth-a6e3.nevkelem.workers.dev/hls/%V%V%s%uL.dmg\n",
+                         "https://sites-opensocial.googleusercontent.com/gadgets/proxy?container=onepick&refresh=3600&url= https://worker-jolly-frog-6069.esraerolofffff.workers.dev/hls/%V%V%s%uL.dmg\n",
                          f->duration, &hacf->base_url, &name_part, sep, f->id);
 
         ngx_log_debug5(NGX_LOG_DEBUG_RTMP, s->connection->log, 0,
